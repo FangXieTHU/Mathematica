@@ -1,0 +1,264 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7709,        254]
+NotebookOptionsPosition[      7370,        237]
+NotebookOutlinePosition[      7735,        253]
+CellTagsIndexPosition[      7692,        250]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  TagBox[
+   RowBox[{"ConjugateTranspose", "[", 
+    RowBox[{"(", "\[NoBreak]", GridBox[{
+       {"\[ImaginaryI]", "0", "0", "0"},
+       {"0", "0", 
+        RowBox[{"-", "\[ImaginaryI]"}], "0"},
+       {"0", "0", "0", 
+        RowBox[{"-", "\[ImaginaryI]"}]},
+       {"0", "\[ImaginaryI]", "0", "0"}
+      },
+      GridBoxAlignment->{
+       "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, 
+        "Rows" -> {{Baseline}}, "RowsIndexed" -> {}},
+      GridBoxSpacings->{"Columns" -> {
+          Offset[0.27999999999999997`], {
+           Offset[0.7]}, 
+          Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+          Offset[0.2], {
+           Offset[0.4]}, 
+          Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}], "]"}],
+   Function[BoxForm`e$, 
+    MatrixForm[BoxForm`e$]]], ".", 
+  RowBox[{"Simplify", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"a", " ", "kz"}], ",", "0", ",", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox[
+          RowBox[{"a", "+", 
+           RowBox[{"3", "b"}]}], "4"]}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "+", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}], ",", 
+       RowBox[{
+        FractionBox[
+         SqrtBox["3"], "4"], 
+        RowBox[{"(", 
+         RowBox[{"a", "-", "b"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "-", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       RowBox[{"b", " ", "kz"}], ",", 
+       RowBox[{
+        FractionBox[
+         SqrtBox["3"], "4"], 
+        RowBox[{"(", 
+         RowBox[{"a", "-", "b"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "-", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"3", "a"}], "+", "b"}], "4"]}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "+", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox[
+          RowBox[{"a", "+", 
+           RowBox[{"3", "b"}]}], "4"]}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "-", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}], ",", 
+       RowBox[{
+        FractionBox[
+         SqrtBox["3"], "4"], 
+        RowBox[{"(", 
+         RowBox[{"a", "-", "b"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "+", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", "a"}], " ", "kz"}], ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        FractionBox[
+         SqrtBox["3"], "4"], 
+        RowBox[{"(", 
+         RowBox[{"a", "-", "b"}], ")"}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "+", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}], ",", 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox[
+          RowBox[{
+           RowBox[{"3", "a"}], "+", "b"}], "4"]}], 
+        RowBox[{"(", 
+         RowBox[{"kx", "-", 
+          RowBox[{"I", " ", "ky"}]}], ")"}]}], ",", "0", ",", 
+       RowBox[{
+        RowBox[{"-", "b"}], " ", "kz"}]}], "}"}]}], "}"}], "]"}], ".", 
+  RowBox[{"(", "\[NoBreak]", GridBox[{
+     {"\[ImaginaryI]", "0", "0", "0"},
+     {"0", "0", 
+      RowBox[{"-", "\[ImaginaryI]"}], "0"},
+     {"0", "0", "0", 
+      RowBox[{"-", "\[ImaginaryI]"}]},
+     {"0", "\[ImaginaryI]", "0", "0"}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Center}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.7]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}], "\[NoBreak]", ")"}]}]], "Input",
+ CellChangeTimes->{
+  3.684492492605627*^9, {3.684492803112402*^9, 3.684492824777628*^9}, {
+   3.684493661193508*^9, 3.6844936880934563`*^9}, {3.684493849624217*^9, 
+   3.6844938537309093`*^9}, {3.684494057264023*^9, 3.684494059575396*^9}, {
+   3.684494389469294*^9, 3.684494389649786*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"a", " ", "kz"}], ",", 
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      SqrtBox["3"], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "-", "b"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "-", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}], ",", "0", ",", 
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "+", 
+        RowBox[{"3", " ", "b"}]}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "+", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      SqrtBox["3"], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "-", "b"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "+", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}], ",", 
+     RowBox[{
+      RowBox[{"-", "b"}], " ", "kz"}], ",", 
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"3", " ", "a"}], "+", "b"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "-", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}], ",", "0"}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", 
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"3", " ", "a"}], "+", "b"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "+", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}], ",", 
+     RowBox[{"b", " ", "kz"}], ",", 
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      SqrtBox["3"], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "-", "b"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "-", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "+", 
+        RowBox[{"3", " ", "b"}]}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "-", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}], ",", "0", ",", 
+     RowBox[{
+      FractionBox["1", "4"], " ", 
+      SqrtBox["3"], " ", 
+      RowBox[{"(", 
+       RowBox[{"a", "-", "b"}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"kx", "+", 
+        RowBox[{"\[ImaginaryI]", " ", "ky"}]}], ")"}]}], ",", 
+     RowBox[{
+      RowBox[{"-", "a"}], " ", "kz"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.684492825503446*^9, 3.6844936889616632`*^9, 
+  3.684493864154937*^9, 3.684494060265421*^9, 3.684494390561845*^9}]
+}, Open  ]]
+},
+WindowSize->{1238, 751},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (2015\:5e7410\
+\:67089\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4179, 127, 248, "Input"],
+Cell[4762, 151, 2592, 83, 142, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
